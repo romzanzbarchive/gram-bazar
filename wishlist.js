@@ -1,0 +1,1 @@
+const Wish={k:'gb_wish',get(){try{return JSON.parse(localStorage.getItem(this.k))||[]}catch(e){return[]}},has(id){return this.get().includes(+id)},toggle(id){id=+id;let a=this.get();a=a.includes(id)?a.filter(x=>x!==id):[...a,id];try{localStorage.setItem(this.k,JSON.stringify(a))}catch(e){}return a.includes(id)}};

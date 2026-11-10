@@ -1,0 +1,2 @@
+@media(min-width:640px){.grid{grid-template-columns:repeat(3,1fr)}.cats{grid-template-columns:repeat(4,1fr)}.revs{grid-template-columns:repeat(3,1fr)}.bar{grid-template-columns:2fr 1fr 1fr}.hero{grid-template-columns:2fr 1fr;align-items:center}.sf{flex:2 1 300px;order:0}}
+@media(min-width:960px){.grid{grid-template-columns:repeat(4,1fr)}.cats{grid-template-columns:repeat(6,1fr)}.hero h1{font-size:34px}.ov{align-items:center}.sheet{border-radius:20px}.det{grid-template-columns:1fr 1fr}#co,.narrow{max-width:640px;margin:auto}.wf{bottom:90px}}
